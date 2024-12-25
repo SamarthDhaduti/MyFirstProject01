@@ -16,7 +16,7 @@ public class FirstProject {
     @RequestMapping("/hello/{name}")
     public String SayHelloToSomeone(@PathVariable("name") String name){
 
-        return "Hello Boss " + name;
+        return "Hello Namaste " + name;
     }
     
 }
