@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class FirstProject {
 
     @RequestMapping("/hello")
-    public String sayHello(){
+    public String sayHello(){clear
+
 
         return "Hello World";
     }
@@ -16,7 +17,7 @@ public class FirstProject {
     @RequestMapping("/hello/{name}")
     public String SayHelloToSomeone(@PathVariable("name") String name){
 
-        return "Hello Namaste Boss " + name;
+        return "Hello Namaste Good To See You " + name;
     }
     
 }
